@@ -2,11 +2,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>co.monos</groupId>
-    <artifactId>algorism</artifactId>
+    <artifactId>devnote</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>algorism</name>
-    <url>http://algo.monos.co</url>
+    <name>devnote</name>
+    <url>http://devnote.monos.co</url>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -26,7 +26,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>sort.Selection</mainClass>
+                            <mainClass>algorism.sort.Selection</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
