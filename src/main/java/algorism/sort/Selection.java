@@ -2,6 +2,10 @@ package algorism.sort;
 
 import java.util.Arrays;
 
+
+/**
+ * 선택 정렬
+ */
 public class Selection {
 	public static void main(String[] args) {
 		int tmp, minIndex;
