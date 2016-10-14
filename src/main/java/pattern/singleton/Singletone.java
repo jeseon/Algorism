@@ -3,9 +3,9 @@ package pattern.singleton;
 
 public class Singletone {
     private volatile static  Singletone singletone;
-
+    
     private Singletone() {}
-
+    
     public static Singletone getInstance() {
         if (singletone == null) {
             synchronized (Singletone.class) {
@@ -14,7 +14,7 @@ public class Singletone {
                 }
             }
         }
-
+        
         return singletone;
     }
 
@@ -22,7 +22,7 @@ public class Singletone {
         Singletone s1 = Singletone.getInstance();
         Singletone s2 = Singletone.getInstance();
         Singletone s3 = Singletone.getInstance();
-
+        
         System.out.println(s1);
         System.out.println(s2);
         System.out.println(s3);
